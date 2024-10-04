@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moh Store - V-Bucks Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Moh Store</h1>
+    </header>
+    
+    <main>
+        <h2>V-Bucks Store</h2>
+        <div class="product">
+            <h3>1000 V-Bucks</h3>
+            <p>Price: $9.99</p>
+            <button onclick="addToCart('1000 V-Bucks', 9.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>2500 V-Bucks</h3>
+            <p>Price: $24.99</p>
+            <button onclick="addToCart('2500 V-Bucks', 24.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>5000 V-Bucks</h3>
+            <p>Price: $39.99</p>
+            <button onclick="addToCart('5000 V-Bucks', 39.99)">Add to Cart</button>
+        </div>
+        
+        <h2>Your Cart</h2>
+        <ul id="cart"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+    </main>
 
+    <script src="script.js"></script>
+</body>
+</html>
